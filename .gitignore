@@ -1,0 +1,66 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build/output directories
+build/
+dist/
+out/
+bin/
+obj/
+
+# Ignore dependency directories
+node_modules/
+vendor/
+bower_components/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore logs
+*.log
+logs/
+log/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.class
+*.o
+*.so
+
+# Ignore package manager lock files (optional, depending on your workflow)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Ignore sensitive or secret files
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+config/secrets.yml
+
+# Ignore test coverage or reports
+coverage/
+*.lcov
+test-results/
+
+# Ignore local configuration overrides
+config/local/
+*.local

@@ -1,0 +1,19 @@
+{
+  "name": "grokdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "start": "node app.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.2.1",
+    "express": "^5.1.0",
+    "mocha": "^11.7.1"
+  }
+}

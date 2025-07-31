@@ -1,4 +1,4 @@
 const express = require('express');
 const app = express();
-app.get('/', (req, res) => res.send('Test2'));
+app.get('/', (req, res) => res.send('deploy'));
 app.listen(3000, () => console.log('Server running on port 3000'));
